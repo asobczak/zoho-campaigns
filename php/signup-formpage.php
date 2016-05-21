@@ -136,7 +136,7 @@ function zc_zcplugin_form_script() {
     wp_enqueue_style( 'zc_signupform_style3', plugins_url( 'assets/css/jquery.ui.datepicker.css', dirname(__FILE__) ), false, '1.0.0' );
     wp_enqueue_script( 'zc_signupform_script1', plugins_url( 'assets/js/jquery-1.11.0.min.js', dirname(__FILE__) ), array(),'1.0.0',false);
     wp_enqueue_script( 'zc_signupform_script2', plugins_url( 'assets/js/jquery-migrate-1.2.1.min.js', dirname(__FILE__) ), array(),'1.0.0',false);
-    wp_enqueue_script( 'zc_signupform_script3', plugins_url( 'assets/js/jquery-ui-1.10.4.min.js', dirname(__FILE__) ), array(),'1.0.0',false);
+    wp_enqueue_script( 'zc_signupform_script3', plugins_url( 'assets/js/jquery-ui-1.11.4.min.js', dirname(__FILE__) ), array(),'1.0.0',false);
     wp_enqueue_script( 'zc_signupform_script4', plugins_url( 'assets/js/signup-formpage-js.js', dirname(__FILE__) ), array(),'1.0.0',false);
     // wp_enqueue_script( 'zc_signupform_script5','https://campaigns.zoho.com/js/jquery-1.3.2.min.js', array(),'1.0.0',false);
     wp_enqueue_script( 'zc_signupform_script6','https://campaigns.zoho.com/js/resource.js', array(),'1.0.0',false);
