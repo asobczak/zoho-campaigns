@@ -467,7 +467,7 @@ function ZC_KMEncryptionAlgorithm($apikeyval)   {
 
 // if($str != "1:"  && ($xml->status == 'success' && ($xml->code == 0 || $xml->code == 2401 )) )    {
 if($str != "1:")    {
-    $saved_sno = split(":",$str);
+    $saved_sno = explode(":",$str);
     foreach ($saved_sno as $sno) {
         add_shortcode("zc4wp_sa" . $sno, 'zc_shortCodeAdder');
         add_shortcode("zc4wp_za" . $sno, 'zc_shortCodeAdder');
